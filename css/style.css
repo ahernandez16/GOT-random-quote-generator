@@ -1,0 +1,13 @@
+.container-top {
+	padding-top: 25px;
+}
+
+body {
+	background-color: #333;
+}
+.footer-container {
+	color: #999;
+}
+a, a:hover {
+	color:#fff;
+}
