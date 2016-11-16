@@ -8,7 +8,7 @@
 	<title>GOT Quote Generator</title>
 	<!-- Bootstrap -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
+	--<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -23,6 +23,8 @@
 			</blockquote>
 			<p>
 				<a id="newQuote" class="btn btn-info btn-lg" href="#" role="button">New Quote</a>
+				<!-- Tweet html is generated in qoute.js -->
+				<div class="tweet-button"></div> 
 			</p>
 		</div>
 	</div>
@@ -47,5 +49,6 @@
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/quote.js"></script>
+	<script type="text/javascript" async src="https://platform.twitter.com/widgets.js"></script>
 </body>
 </html>
